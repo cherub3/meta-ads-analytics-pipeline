@@ -1,0 +1,4 @@
+campaign_id,total_impressions,total_clicks,total_spend,total_conversions,total_approved_conv,fact_rows,ctr_pct,cpc,cpa,conversion_rate_pct,cpm,score_ctr,score_conversion_rate,score_cpa,score_cpm,health_score,health_label,performance_tier,recommendation,last_updated
+1178,69902476.0,9577.0,16577.16,1050.0,378.0,28,0.0137,1.7309,43.8549,3.947,0.2371,0.0,0.0,0.0,25.0,25.0,Poor,Poor Performer,Review / Pause - High spend with low conversion rate,2026-06-09 01:02:22.250170
+916,482925.0,113.0,149.71,58.0,24.0,19,0.0234,1.3249,6.2379,21.2389,0.31,22.663551401869157,25.0,25.0,9.671993271656854,82.34,Good,High Performer,Scale Budget - Strong efficiency and conversion rate,2026-06-09 01:02:22.250170
+936,8128187.0,1984.0,2893.37,537.0,183.0,86,0.0244,1.4584,15.8108,9.2238,0.356,25.0,7.629005488118715,18.637916367599757,0.0,51.27,Average,Standard Performer,Optimize - Test new audiences or ad creatives to improve CPA,2026-06-09 01:02:22.250170

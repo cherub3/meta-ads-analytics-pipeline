@@ -1,0 +1,4 @@
+campaign_id,health_score,health_label,performance_tier,recommendation,top_strength,biggest_risk
+1178,25.0,Poor,Poor Performer,Review / Pause - High spend with low conversion rate,CPM Efficiency,Low click-through rate — ad relevance may be weak
+916,82.34,Good,High Performer,Scale Budget - Strong efficiency and conversion rate,Conversion Rate,High cost per thousand impressions — expensive reach
+936,51.27,Average,Standard Performer,Optimize - Test new audiences or ad creatives to improve CPA,CTR,High cost per thousand impressions — expensive reach

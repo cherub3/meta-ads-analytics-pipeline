@@ -1,0 +1,2 @@
+run_timestamp,total_rows,valid_rows,rejected_rows,pct_rejected,reason_invalid_campaign,reason_null_conversion,reason_negative_spend,reason_duplicate
+2026-06-09 01:02:21.889005,1143,761,382,33.42,382,0,0,0

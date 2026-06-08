@@ -11,10 +11,6 @@ dataset/
 # Checkpoints
 checkpoints/
 
-# Warehouse
-warehouse/
-*.duckdb
-
 # Logs
 logs/
 *.log

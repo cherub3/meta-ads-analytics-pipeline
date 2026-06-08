@@ -174,9 +174,10 @@ def page_executive():
             "conversion_rate_pct": "Conv Rate (%)", "cpm": "CPM ($)"
         })
         st.dataframe(
-            metrics.set_index("campaign_id").style.format("{:.4f}").background_gradient(cmap="RdYlGn", axis=0),
-            use_container_width=True, height=200
-        )
+    metrics.set_index("campaign_id"),
+    use_container_width=True,
+    height=200
+    )
 
     # - Recommendation summary -
     st.subheader("Automated Recommendations")

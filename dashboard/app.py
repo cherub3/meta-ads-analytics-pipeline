@@ -115,13 +115,16 @@ def page_executive():
     avg_ctr       = (kpis["total_clicks"].sum() / kpis["total_impressions"].sum() * 100)
     blended_cpa   = total_spend / total_conv if total_conv > 0 else 0
 
-    col1, col2, col3 = st.columns(3)
-    col4, col5 = st.columns(2)
-    c1.metric("Total Spend",       f"${total_spend:,.2f}")
-    c2.metric("Total Clicks",      f"{int(total_clicks):,}")
-    c3.metric("Approved Conv.",    f"{int(total_conv):,}")
-    c4.metric("Blended CTR",       f"{avg_ctr:.3f}%")
-    c5.metric("Blended CPA",       f"${blended_cpa:.2f}")
+    c1, c2, c3 = st.columns(3)
+
+    c1.metric("Total Spend", f"${total_spend:,.2f}")
+    c2.metric("Total Clicks", f"{total_clicks:,}")
+    c3.metric("Approved Conv.", f"{total_conversions:,}")
+
+    c4, c5 = st.columns(2)
+
+    c4.metric("Blended CTR", f"{blended_ctr:.2f}%")
+    c5.metric("Blended CPA", f"${blended_cpa:,.2f}")
 
     st.divider()
 

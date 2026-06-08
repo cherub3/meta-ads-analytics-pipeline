@@ -1,0 +1,28 @@
+# Claude
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# Dataset
+dataset/
+
+# Checkpoints
+checkpoints/
+
+# Warehouse
+warehouse/
+*.duckdb
+
+# Logs
+logs/
+*.log
+
+# Virtual env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
